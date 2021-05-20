@@ -1,0 +1,6 @@
+{
+    "use_entire_file_if_no_selection": true,
+    "indent": 4,
+    "min_seperators": 1,
+    "min_content_length": 1
+}

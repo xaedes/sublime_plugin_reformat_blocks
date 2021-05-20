@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Reformat Fold Blocks",
+        "command": "reformat_fold_blocks"
+    },
+    {
+        "caption": "Reformat Unfold Blocks",
+        "command": "reformat_unfold_blocks"
+    }
+]
