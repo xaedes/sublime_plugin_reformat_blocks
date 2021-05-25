@@ -1,7 +1,7 @@
 import sublime
 import sublime_plugin
 import re
-s = sublime.load_settings("PrettyPrintCppTemplate.sublime-settings")
+s = sublime.load_settings("ReformatBlocks.sublime-settings")
 
 class Token:
     token_type = None
@@ -295,6 +295,7 @@ class Formatter:
             insert_before[block.start] = True
             insert_after[block.start] = True
             insert_before[block.end] = True
+            insert_after[block.end] = True
             for k in range(len(block.separators)):
                 insert_after[block.separators[k]] = True
 
